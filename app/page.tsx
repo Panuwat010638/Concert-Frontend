@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 
 export default function Home() {
   const router = useRouter();
-
   useEffect(() => {
     // เช็ค mode จาก localStorage
     const savedMode = localStorage.getItem('userMode');
